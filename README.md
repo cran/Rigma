@@ -8,13 +8,18 @@
 [![R-CMD-check](https://github.com/AleKoure/Rigma/workflows/R-CMD-check/badge.svg)](https://github.com/AleKoure/Rigma/actions)
 [![Codecov test
 coverage](https://codecov.io/gh/AleKoure/Rigma/branch/main/graph/badge.svg)](https://app.codecov.io/gh/AleKoure/Rigma?branch=main)
+[![CRAN
+status](https://www.r-pkg.org/badges/version/Rigma)](https://CRAN.R-project.org/package=Rigma)
 <!-- badges: end -->
 
-The goal of Rigma is to provide a user friendly client to Figma API.
+The goal of Rigma is to provide a user friendly client to ‘Figma’ API.
+It uses the latest `httr2` for a more stable interface with the ‘Figma’
+API. More than 20 methods are provided to interact with Figma files, and
+teams.
 
 ## Installation
 
-You can install the development version of Rigma from
+You can install the development version of ‘Rigma’ from
 [GitHub](https://github.com/) with:
 
 ``` r
@@ -45,11 +50,11 @@ After saving your changes restart R session.
 
 ## Example
 
-Open Figma and navigate to your favorite file. In the URL you can see
+Open ‘Figma’ and navigate to your favorite file. In the URL you can see
 the key of the file. To retrieve the File as an R object execute:
 
     example_file_key <- "sFHgQh9dL6369o5wrZHmdR"
     get_file(example_file_key)
 
-A tree of nodes is used to represent the Figma file. Every file has a
+A tree of nodes is used to represent the ‘Figma’ file. Every file has a
 DOCUMENT node at the root, and any CANVAS nodes branch out of that node.
