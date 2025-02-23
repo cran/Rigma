@@ -13,9 +13,14 @@ status](https://www.r-pkg.org/badges/version/Rigma)](https://CRAN.R-project.org/
 <!-- badges: end -->
 
 The goal of Rigma is to provide a user friendly client to ‘Figma’ API.
-It uses the latest `httr2` for a more stable interface with the ‘Figma’
-API. More than 20 methods are provided to interact with Figma files, and
-teams.
+It uses the latest `httr2` for a stable interface with the ‘Figma’ API.
+More than 20 methods are provided to interact with ‘Figma’ files, and
+teams. Get design data into R by reading published components and
+styles, converting and downloading images, getting access to the full
+‘Figma’ file as a hierarchical data structure, and much more. Enhance
+your creativity and streamline the application development by automating
+the extraction, transformation, and loading of design data to your
+applications and documents.
 
 ## Installation
 
